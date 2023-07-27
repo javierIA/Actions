@@ -18,4 +18,4 @@ jobs:
                 - name: update
                   run: choco install python
                 - name: Ejecutar condigo de python
-                  run: python3 app.py
+                  run: python app.py
