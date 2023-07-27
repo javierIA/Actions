@@ -8,7 +8,7 @@ on:
 jobs: 
     hola_mundo:
             name: Imrpimir Hola mundo 
-            runs-on: ubuntu-latest
+            runs-on: self-hosted
             steps:
                 - name: Revisar el repo
                   uses: actions/checkout@v2
