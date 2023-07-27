@@ -10,5 +10,5 @@ jobs:
             name: Imrpimir Hola mundo 
             runs-on: ubuntu-latest
             steps:
-            - name: Imprimir Hola mundo
+                - name: Imprimir Hola mundo
                 run: echo "Hola Mundo"    
