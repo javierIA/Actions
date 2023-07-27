@@ -12,6 +12,6 @@ jobs:
             steps:
                 - name: Revisar el repo
                   uses: actions/checkout@v2
-                  
+
                 - name: Ejecutar condigo de python
-                  uses: python3 app.py
+                  run: python3 app.py
