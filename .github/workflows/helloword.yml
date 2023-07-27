@@ -1,0 +1,14 @@
+name: Hola mundo Actions GH
+
+on: 
+    push:
+        branches:
+            - main
+
+jobs: 
+    hola_mundo:
+            name: Imrpimir Hola mundo 
+            runs-on: ubuntu-latest
+            steps:
+                - name: Imprimir Hola mundo
+                run: echo "Hola Mundo"    
