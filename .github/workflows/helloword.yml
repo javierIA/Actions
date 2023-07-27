@@ -10,5 +10,8 @@ jobs:
             name: Imrpimir Hola mundo 
             runs-on: ubuntu-latest
             steps:
-                - name: Imprimir Hola mundo
-                run: echo "Hola Mundo"    
+                - name: Revisar el repo
+                  uses: actions/checkout@v2
+                  
+                - name: Ejecutar condigo de python
+                  uses: python3 app.py
