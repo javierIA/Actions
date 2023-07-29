@@ -1,6 +1,5 @@
-import pandas as pd 
+import plotly.express as px
 
-
-
-
-print("Hola 2"+pd.__version__)
+fig = px.line(x=["a","b","c"], y=[1,3,2], title="Ejemplo de figura")
+print(fig)
+fig.show()
